@@ -1,0 +1,15 @@
+:root{
+    --skin:  #fadab3;
+    --hat: #48b4bc;
+    --shirt: #d61f40;
+    --border-hat: #f9de06;
+    --buttons: #372d32;
+    --pants: #bb8c67;
+    --shoes: #744231;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
