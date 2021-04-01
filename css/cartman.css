@@ -13,3 +13,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.head{
+    position: relative;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--skin);
+    border-radius: 50%;
+}
+
+.eye{
+    position: absolute;
+    top:  50px;
+    width: 35px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    left:40px;
+    transform: rotate(20deg);
+}
+
+
+.eye-right{
+    left:70px;
+    transform: rotate(140deg);
+}
