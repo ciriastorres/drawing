@@ -100,3 +100,34 @@
     border-radius: 50%;
     border-bottom: 1px solid black;
 }
+.hat{
+    position: absolute;
+    width: 150px;
+    height: 141px;
+    /* background-color: var(--hat); */
+    border-radius: 50%;
+    border-top: 40px solid var(--hat);
+}
+
+.hat::after{
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 55px;
+    /* background-color: var(--hat); */
+    border-radius: 50%;
+    border-top: 7px solid var(--border-hat);
+}
+
+.hat::before{
+    position: absolute;
+    top: -45px;
+    left: 60px;
+    content: "";
+    width: 20px;
+    height: 10px;
+    background-color: var(--border-hat);
+    border-radius: 50%;
+    /* border-top: 7px solid var(--border-hat); */
+}
+
