@@ -134,8 +134,8 @@
 .shirt{
     position: absolute;
     top: 150px;
-    width: 180px;
-    height: 110px;
+    width: 195px;
+    height: 125px;
     background-color: var(--shirt);
     border-radius: 20% 20% 45% 30%;
     z-index: -1;
@@ -155,9 +155,8 @@
 
 .shirt::after{
     content: "";
-    left: -5px;
     position: absolute;
     width: 100px;
-    height: 105px;
+    height: 110px;
     border-right: 1px solid var(--buttons);
 }
