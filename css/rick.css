@@ -1,0 +1,15 @@
+:root{
+    --details: #231414;
+    --skin: #d4ccbc;
+    --hair: #bcd4ec;
+    --spit: #e4e3e2;
+    --mouth: #b44c4c;
+    --shirt: #acdcdc;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
